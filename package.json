@@ -9,9 +9,9 @@
   "browser": "./lib/index.umd.js",
   "typings": "./lib/types/index.d.ts",
   "scripts": {
-    "dev": "pnpm clean && rollup -c -w --configPlugin typescript",
+    "dev": "pnpm clean && rollup -c rollup.config.dev.ts -w --configPlugin typescript",
     "clean": "rm -rf lib",
-    "build": "pnpm clean && rollup -c --configPlugin typescript",
+    "build": "pnpm clean && rollup -c rollup.config.prod.ts --configPlugin typescript",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
