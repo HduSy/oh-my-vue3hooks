@@ -1,6 +1,6 @@
 {
   "name": "oh-my-vueuse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some useful hooks in usual development based on Vue3.",
   "main": "./lib/index.esm.js",
   "type": "module",
